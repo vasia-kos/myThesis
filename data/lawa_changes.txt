@@ -1,0 +1,38 @@
+--------Replace the lines below with the given content:---------
+
+
+PreProcessor:
+
+line 26:
+val metaPath = dataset + Constants.huaBCFile.substring(0, Constants.huaBCFile.lastIndexOf("/"))
+
+line 19:
+if(!HdfsUtils.hdfsExists(hdfs + dataset + Constants.schemaVerticesFile))
+
+line 21:
+if(!HdfsUtils.hdfsExists(hdfs + dataset + Constants.instanceVerticesFile))
+
+line 31:
+if(!HdfsUtils.hdfsExists(hdfs + dataset + Constants.schemaCC))
+
+
+Loader:
+
+line 72:
+for (line <- Source.fromFile(dataset + Constants.classIndexFile + "_" + partitionNum + "_bal").getLines) {
+
+
+BLAP:
+
+line  356:
+val fullPath = hdfs + dataset + Constants.clusters + "_"+ numOfPartitions + "_bal/"
+val cluster = Loader.loadClusters(spark, fullPath).distinct
+
+line 87
+val basePath = hdfs + dataset + Constants.clusters + "_" + numOfPartitions + "_bal/"
+
+line 88
+val baseUtilsPath = dataset + Constants.clusters + "_" + numOfPartitions + "_bal/"
+
+
+

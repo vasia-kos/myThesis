@@ -1,0 +1,174 @@
+#content {
+  margin: 20;
+  padding: 20;
+}
+
+canvas {
+  margin: 30px;
+  bottom: 0;
+}
+#chart1 {
+  font-size: 30px;
+}
+
+.chartColumn {
+  width: 400px;
+  background-color: white;
+  margin: 10px; /*gia keno anamesa sta boxes*/
+  border-radius: 5px;
+  border-color: blue;
+}
+.chartColumn2 {
+  width: 400px;
+  background-color: white;
+  margin: 10px; /*gia keno anamesa sta boxes*/
+  border-radius: 5px;
+  border-color: blue;
+}
+
+/* Clear floats after the columns */
+.Charts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Charts2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#textInput {
+  width: 30px;
+}
+
+#result {
+  border: 1px;
+  border-color: lightblue;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+}
+#result1 {
+  border: 1px;
+  border-color: lightblue;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+}
+#result2 {
+  border: 1px;
+  border-color: lightblue;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+}
+#result3 {
+  border: 1px;
+  border-color: lightblue;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+}
+#result4 {
+  border: 1px;
+  border-color: lightblue;
+  border-style: solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+#TitleOfCharts {
+  font-weight: bold;
+
+  width: 100%;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#graph-button {
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.graph-buttons {
+  margin: 10px;
+  margin-top: 15px;
+}
+
+#result h4 {
+  font-weight: bold;
+  color: black;
+}
+
+#result1 p {
+  font-size: 25px;
+}
+#result2 p {
+  font-size: 25px;
+}
+#result3 p {
+  font-size: 25px;
+}
+#result4 p {
+  font-size: 25px;
+}
+
+body {
+  background-color: #dfe3ee;
+}
+
+/*BOXES OF DATA OPTIONS*/
+.DataOptions {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.DataOptionsRow {
+  margin: 10px; /*gia keno anamesa sta boxes*/
+
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  background-color: white;
+  margin: 10px; /*gia keno anamesa sta boxes*/
+  border-radius: 5px;
+  border-color: blue;
+  height: 250px;
+}
+.DataOptionsRow2 {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 400px;
+  margin: 10px; /*gia keno anamesa sta boxes*/
+  border-radius: 5px;
+  border-color: blue;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+#ExecuteButton {
+
+  border-radius: 5px;
+}
+
+#buttonSpace {
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 25px;
+  color: lightseagreen;
+}
